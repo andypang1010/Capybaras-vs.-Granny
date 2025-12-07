@@ -66,5 +66,5 @@
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj"
     },
-    "dotnet.defaultSolution": "Team47-R4.slnx"
+    "dotnet.defaultSolution": "Capybaras-vs.-Granny.slnx"
 }
