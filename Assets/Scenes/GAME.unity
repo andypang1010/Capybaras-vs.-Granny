@@ -502,7 +502,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9102320877097196628, guid: a73f23ac519aef5478fa9dc07d797ce2, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[0].m_Value.y
-      value: 4.5325503
+      value: 4.532551
       objectReference: {fileID: 0}
     - target: {fileID: 9102320877097196628, guid: a73f23ac519aef5478fa9dc07d797ce2, type: 3}
       propertyPath: m_PropertySheet.m_Vector3f.m_Array.Array.data[1].m_Value.x
@@ -729,9 +729,29 @@ PrefabInstance:
       propertyPath: camToLookAt
       value: 
       objectReference: {fileID: 680596490}
+    - target: {fileID: 597174464180598610, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 980067191727228745, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1002355101416331373, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2242437232397889628, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
       propertyPath: m_Name
       value: CAPYBARA 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2345862378631292652, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2688863747251311850, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3425208863831517327, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
       propertyPath: m_LocalPosition.x
@@ -773,6 +793,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3753952902177784629, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4544639287061058729, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
       propertyPath: ownerCapybara
       value: 
@@ -813,6 +837,14 @@ PrefabInstance:
       propertyPath: volumeController
       value: 
       objectReference: {fileID: 191611325}
+    - target: {fileID: 5229856848232214485, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5410665844594519850, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6258179735208229977, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
       propertyPath: ownerCapybara
       value: 
@@ -821,6 +853,18 @@ PrefabInstance:
       propertyPath: targetCapybara
       value: 
       objectReference: {fileID: 2013556059}
+    - target: {fileID: 6711813832879577566, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8065181340011400263, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8348950488706370835, guid: f884c8a4df018a94a8fa11b1e87a41ac, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7942,6 +7986,18 @@ PrefabInstance:
       propertyPath: m_SortingOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 318495370902743883, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 605384884239049390, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 806018991333784991, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1178563049595576580, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
       propertyPath: MoveSpeed
       value: 12
@@ -7982,9 +8038,17 @@ PrefabInstance:
       propertyPath: targetCapybara
       value: 
       objectReference: {fileID: 928437868}
+    - target: {fileID: 1889293288344157128, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2242437232397889628, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
       propertyPath: m_Name
       value: CAPYBARA 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2820915460750623210, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3425208863831517327, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8026,10 +8090,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4449827790880301212, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5942433936362634060, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6166633018700526208, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7477974349436007204, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7823472706677522545, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7838639328415097884, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
       propertyPath: camToLookAt
       value: 
       objectReference: {fileID: 330585545}
+    - target: {fileID: 8721387267228554489, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8883276576370279469, guid: a150d8e7f54a124408151c168b6d3e32, type: 3}
       propertyPath: ownerCapybara
       value: 
@@ -8089,10 +8177,26 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 298819388815133465, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 361070628065243076, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
       propertyPath: camToLookAt
       value: 
       objectReference: {fileID: 169498019}
+    - target: {fileID: 726928088342902767, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038261309218870494, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070826808633729805, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2242437232397889628, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
       propertyPath: m_Name
       value: CAPYBARA 2
@@ -8136,6 +8240,10 @@ PrefabInstance:
     - target: {fileID: 3425208863831517327, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4047314707313656332, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4235771049580743258, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
       propertyPath: ownerCapybara
@@ -8185,9 +8293,33 @@ PrefabInstance:
       propertyPath: targetCapybara
       value: 
       objectReference: {fileID: 1715745680}
+    - target: {fileID: 5333753731782147728, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6269782404073723197, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 6751727208428096647, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
       propertyPath: m_SortingOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6799056656732762634, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6911150781859387995, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7303643345862401358, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7607655543922633206, guid: d77a11b5d99d7b544b0f49a957e8d028, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

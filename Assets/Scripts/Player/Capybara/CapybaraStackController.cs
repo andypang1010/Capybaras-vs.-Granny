@@ -214,7 +214,7 @@ public class CapybaraStackController : MonoBehaviour
             capybara
                 .GetComponent<Rigidbody>()
                 .AddForce(
-                    direction * capybara.GetComponent<Rigidbody>().mass * 30f,
+                    direction.normalized * capybara.GetComponent<Rigidbody>().mass * 30f,
                     ForceMode.Impulse
                 );
 
@@ -245,21 +245,22 @@ public class CapybaraStackController : MonoBehaviour
             foreach (CapybaraController capybara in capybarasStack)
             {
                 capybara.TakeDamage(damage);
-                // capybara.TakeDamage(damage / capybarasStack.Count);
             }
         }
-
         else
         {
             capybarasStack.Peek().TakeDamage(damage);
         }
 
         UpdateStackHP();
-        RemoveCapybara(transform.forward);
+        RemoveCapybara(transform.forward + transform.up);
 
-        if (bottomCapybara.hp <= 0f)
+        foreach (CapybaraController capybara in capybarasStack)
         {
-            RemoveCapybara(transform.forward);
+            if (capybara.hp <= 0f)
+            {
+                RemoveCapybara(transform.forward + transform.up);
+            }
         }
     }
 }
